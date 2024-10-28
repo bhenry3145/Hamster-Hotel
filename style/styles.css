@@ -41,3 +41,33 @@
     width: 1920px;
     height: 500px;
 }
+
+.card button {
+    background: #004CC7 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.container-packages h2 {
+    text-align: center;
+}
+
+.wedding-size {
+    top: 2143px;
+    left: 390px;
+    width: 561px;
+    height: 234px;
+}
+
+.spring-size {
+    top: 2378px;
+    left: 966px;
+    width: 561px;
+    height: 234px;
+}
+
+.cheese-size {
+    top: 2613px;
+    left: 390px;
+    width: 561px;
+    height: 234px;
+}
