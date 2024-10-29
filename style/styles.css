@@ -3,18 +3,13 @@
     padding: 0;
 }
 
-.navbar-color
+.nav-color
 {
     background: #000324 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
-.navbar {
-    top: 0px;
-    left: 0px;
-    width: 1920px;
-    height: 120px;
-}
+
 
 .logo {
     top: 9px;
@@ -25,12 +20,30 @@
     opacity: 1;
 }
 
-.navbar-text {
+.nav-text {
     text-align: left;
     font: normal normal normal 20px/26px Dosis;
     letter-spacing: 0px;
-    color: #FFFFFF;
+    color: white;
     opacity: 1;
+    text-decoration: none;
+}
+
+.reserve-border {
+    border: 2px solid #E5FEFF;
+    opacity: 1;
+}
+
+.header {
+    top: 119px;
+    left: 0px;
+    width: 1920px;
+    height: 500px;
+    opacity: 1;
+}
+
+.div-border {
+    border-style: none;
 }
 
 .card button {
