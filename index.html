@@ -83,11 +83,6 @@
                 </div>
             </div>
 
-
-
-
-
-
             <div class="container card-bg">
                 <div class="row">
                     <h2 class="our-rooms mt-3">Our Rooms</h2>
@@ -96,7 +91,7 @@
                             <img src="./assets/room1.jpg" class="card-img-top" alt="Image of room 1">
                             <div class="card-body">
                                 <h5 class="card-title">Queen Room</h5>
-                                <p class="card-text">850 SQ FT room with city view</p>
+                                <p class="card-text fw-bold">850 SQ FT room with city view</p>
                                 <p>
                                 <ul>
                                     <li>One queen size bed</li>
@@ -113,7 +108,7 @@
                             <img src="./assets/room3.jpg" class="card-img-top" alt="Image of room 2">
                             <div class="card-body">
                                 <h5 class="card-title">King Room</h5>
-                                <p class="card-text">950 SQ FT room with city view</p>
+                                <p class="card-text fw-bold">950 SQ FT room with city view</p>
                                 <p>
                                 <ul>
                                     <li>One king size bed</li>
@@ -130,7 +125,7 @@
                             <img src="./assets/room2.jpg" class="card-img-top" alt="Image of room 3">
                             <div class="card-body">
                                 <h5 class="card-title">Beach Side Suite</h5>
-                                <p class="card-text">1500 SQ FT Suite with beach view</p>
+                                <p class="card-text fw-bold">1500 SQ FT Suite with beach view</p>
                                 <p>
                                 <ul>
                                     <li>One California king size bed</li>
@@ -199,16 +194,29 @@
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-evenly mb-5">
-                        <img class="amenities-size" src="./assets/24hour.png" alt="24 hour service">
-                        <img class="amenities-size" src="./assets/breakfast.png" alt="Breakfast service">
-                        <img class="amenities-size" src="./assets/valet.png" alt="Valet service">
-                        <img class="amenities-size" src="./assets/pool.png" alt="Pool amenity">
+                        <div>
+                            <img class="amenities-size" src="./assets/24hour.png" alt="24 hour service">
+                            <p>24 Hour Room Service</p>
+                        </div>
+                        <div>
+                            <img class="amenities-size" src="./assets/breakfast.png" alt="Breakfast service">
+                            <p>Complimentary Breakfast</p>
+                        </div>
+                        <div>
+                            <img class="amenities-size" src="./assets/valet.png" alt="Valet service">
+                            <p>Valet Parking</p>
+                        </div>
+                        <div>
+                            <img class="amenities-size" src="./assets/pool.png" alt="Pool amenity">
+                            <p>Beachside Pool</p>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
 
 
-            <div class="container search mt-5">
+            <div class="container search mb-5">
                 <div class="row">
                     <h2 class="mt-3">Reserve a Room</h2>
                     <nav class="navbar navbar-expand-lg bg-body-tertiary search-padding">
@@ -218,7 +226,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Check-in
                                             <form class="d-flex" role="search">
-                                                <input class="form-control me-2" type="search" placeholder=""
+                                                <input class="form-control me-5 search-padding" type="search" placeholder=""
                                                     aria-label="Search">
                                             </form>
                                         </a>
@@ -226,7 +234,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Check-out
                                             <form class="d-flex" role="search">
-                                                <input class="form-control me-2" type="search" placeholder=""
+                                                <input class="form-control me-5 search-padding" type="search" placeholder=""
                                                     aria-label="Search">
                                             </form>
                                         </a>
@@ -234,20 +242,21 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Number of Guests
                                             <form class="d-flex" role="search">
-                                                <input class="form-control me-2" type="search" placeholder=""
+                                                <input class="form-control me-5 search-padding" type="search" placeholder=""
                                                     aria-label="Search">
                                             </form>
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Room Type
-                                            <nav class="d-flex justify-content-center">
-                                                <form class="d-flex me-1" role="search">
-                                                    <input class="form-control me-2" type="search" placeholder=""
+                                            <nav class="d-flex justify-content-evenly">
+                                                <form class="d-flex" role="search">
+                                                    <input class="form-control me-5 search-padding" type="search" placeholder=""
                                                         aria-label="Search">
                                                 </form>
-                                                <button type="button" class="btn btn-primary ms-2">Check
-                                                    Availability</button>
+                                                <button type="button" class="btn btn-primary">Check
+                                                    Availability
+                                                </button>
                                             </nav>
                                         </a>
                                     </li>
