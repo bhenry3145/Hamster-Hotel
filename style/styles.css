@@ -42,6 +42,96 @@
     opacity: 1;
 }
 
+.hero {
+    top: 253px;
+    left: 288px;
+    width: 745px;
+    height: 232px;
+    position: absolute;
+    background: #000324 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+}
+
+.hero h2 {
+    margin-top: 10%;
+    text-align: center;
+    font: normal normal normal 45px/57px Dosis;
+    letter-spacing: 0px;
+    color: #E5FEFF;
+    opacity: 1;
+}
+
+.hero h4 {
+    text-align: center;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #E5FEFF;
+    opacity: 1;
+}
+
+.paradise {
+    margin-right: 100px;
+}
+
+.award-size {
+    width: 200px;
+    height: 153px;
+    background: transparent url('img/awardfinest.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.hamster img {
+    width: 369px;
+    height: 416px;
+}
+
+.hamster-home h2 {
+    text-align: left;
+    font: normal normal normal 35px/44px Dosis;
+    letter-spacing: 0px;
+    color: #1A1B26;
+    opacity: 1;
+}
+
+.hamster-home h4 {
+    text-align: left;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #1A1B26;
+    opacity: 1;
+}
+
+.card-bg {
+    background-image: url('/assets/bg.jpg');
+}
+
+.our-rooms {
+    text-align: center;
+    font: normal normal normal 35px/44px Dosis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.amenities-bg {
+    background-image: url('/assets/bg2.jpg');
+}
+
+.amenities-bg h2 {
+    text-align: center;
+    font: normal normal normal 35px/44px Dosis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.amenities-bg h4 {
+    text-align: center;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
 
 .card button {
     background: #004CC7 0% 0% no-repeat padding-box;
