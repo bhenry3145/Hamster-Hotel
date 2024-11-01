@@ -41,10 +41,10 @@
 }
 
 .hero {
-    top: 253px;
-    left: 20%;
+    top: 25%;
+    left: 21.66%;
     width: 60%;
-    height: 232px;
+    height: 200px;
     position: absolute;
     background: #000324 0% 0% no-repeat padding-box;
     opacity: 0.8;
